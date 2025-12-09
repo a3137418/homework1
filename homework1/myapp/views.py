@@ -8,4 +8,5 @@ def test(request):
     return HttpResponse("test")
 
 def bweb(request):
-    return HttpResponse("test")
+    print("hello")
+    return HttpResponse("hello world")

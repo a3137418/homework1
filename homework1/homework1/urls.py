@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myapp import views
-
+#userA
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.test, name="test"),
+    path('aweb/', views.aweb, name="aweb"),
 ]

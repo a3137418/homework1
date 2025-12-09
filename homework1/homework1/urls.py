@@ -17,8 +17,9 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 from myapp import views
-
+#userB
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('test/', views.test, name="test"),
+    path('bweb/', views.bweb, name="test"),
 ]
